@@ -1,0 +1,19 @@
+<main>
+<h1>Biblioteca</h1>
+<h2>
+    <p>{{ mensaje }}</p>
+    <p>Ingrese sus credenciales para iniciar sesión:</p>
+    <h1>Login</h1>
+    <h1>Ingrese sus credenciales para iniciar sesión:</h1>
+    <label for="usuario">Usuario:</label>
+    <input type="text" id="usuario" [(ngModel)]="usuario">
+    <br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" [(ngModel)]="password">
+    <br>
+    <button (click)="ingresar()">Iniciar Sesion</button>
+</h2>
+</main>
+
+
+
