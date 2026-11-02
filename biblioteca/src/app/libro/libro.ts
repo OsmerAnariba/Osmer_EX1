@@ -16,6 +16,10 @@ export class Libro {
   ngOnInit() {
     this.titulo = 'Bienvenido a la Biblioteca';
     this.autor = 'Autor desconocido'; 
+    this.anio = 0;
+    this.libros = [];
+    
+
   }
 
 }
